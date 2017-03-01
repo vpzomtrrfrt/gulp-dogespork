@@ -4,7 +4,8 @@
   "description": "A gulp plugin to compile dogescript",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "gulp"
   },
   "repository": {
     "type": "git",
