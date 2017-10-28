@@ -1,6 +1,6 @@
 var gulp = require('gulp');
 
-var dogescript = require('./self/index');
+var dogescript = require('gulp-dogescript');
 
 gulp.task('default', function() {
 	return gulp.src('src/**/*.djs')

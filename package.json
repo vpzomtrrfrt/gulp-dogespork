@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish": "gulp"
+    "prepare": "gulp"
   },
   "repository": {
     "type": "git",
@@ -22,11 +22,15 @@
   },
   "homepage": "https://github.com/vpzomtrrfrt/gulp-dogespork#readme",
   "dependencies": {
-    "dogespork": "^1.1.0",
     "through2": "^2.0.3"
   },
   "devDependencies": {
+    "dogescript": "^2.3.0",
+    "dogespork": "^1.1.0",
     "gulp": "^3.9.1",
-    "gulp-dogescript": "^0.1.0"
+    "gulp-dogescript": "^0.2.0"
+  },
+  "peerDependencies": {
+    "dogespork": "~1.1"
   }
 }
