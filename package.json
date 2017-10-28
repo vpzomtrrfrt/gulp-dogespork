@@ -1,7 +1,7 @@
 {
-  "name": "gulp-dogescript",
+  "name": "gulp-dogespork",
   "version": "0.1.0",
-  "description": "A gulp plugin to compile dogescript",
+  "description": "A gulp plugin to compile dogespork",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,22 +9,24 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vpzomtrrfrt/gulp-dogescript.git"
+    "url": "git+https://github.com/vpzomtrrfrt/gulp-dogespork.git"
   },
   "keywords": [
     "gulp",
-    "dogescript"
+    "dogespork"
   ],
   "author": "VpzomTrrfrt",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vpzomtrrfrt/gulp-dogescript/issues"
+    "url": "https://github.com/vpzomtrrfrt/gulp-dogespork/issues"
   },
-  "homepage": "https://github.com/vpzomtrrfrt/gulp-dogescript#readme",
+  "homepage": "https://github.com/vpzomtrrfrt/gulp-dogespork#readme",
   "dependencies": {
+    "dogespork": "^1.1.0",
     "through2": "^2.0.3"
   },
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-dogescript": "^0.1.0"
   }
 }
