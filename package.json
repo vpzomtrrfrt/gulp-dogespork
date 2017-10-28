@@ -1,6 +1,6 @@
 {
   "name": "gulp-dogespork",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A gulp plugin to compile dogespork",
   "main": "dist/index.js",
   "scripts": {
@@ -31,6 +31,6 @@
     "gulp-dogescript": "^0.2.0"
   },
   "peerDependencies": {
-    "dogespork": "~1.1"
+    "dogespork": "1.x"
   }
 }
